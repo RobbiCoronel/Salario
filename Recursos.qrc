@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="Dinero">dinero.png</file>
+        <file>anadir.png</file>
+        <file>calculadora.png</file>
+        <file>cerrar-sesion.png</file>
+        <file>documento.png</file>
+        <file>salvar.png</file>
+        <file>ayuda.png</file>
+    </qresource>
+</RCC>
