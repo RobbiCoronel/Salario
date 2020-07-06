@@ -122,3 +122,5 @@ void Principal::on_mnuAyuda_triggered()
     ayuda.setModal(true);
     ayuda.exec();
 }
+
+//Fin
