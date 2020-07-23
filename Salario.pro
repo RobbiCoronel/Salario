@@ -30,10 +30,20 @@ FORMS += \
     ayuda.ui \
     principal.ui
 
+TRANSLATIONS += \
+    Salario_fr_FR.ts \
+    Salario_en.ts
+
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
+DISTFILES += \
+    Salario_en.ts \
+    Salario_fr_FR.ts
+
 RESOURCES += \
+    Imagenes.qrc \
+    Recursos.qrc \
     Recursos.qrc

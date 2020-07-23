@@ -14,8 +14,8 @@
    <string>Principal</string>
   </property>
   <property name="windowIcon">
-   <iconset resource="Recursos.qrc">
-    <normaloff>:/Dinero</normaloff>:/Dinero</iconset>
+   <iconset resource="Imagenes.qrc">
+    <normaloff>:/Recursos/dinero.png</normaloff>:/Recursos/dinero.png</iconset>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QHBoxLayout" name="horizontalLayout_2">
@@ -176,8 +176,8 @@
   <widget class="QStatusBar" name="statusbar"/>
   <action name="mnuAbrir">
    <property name="icon">
-    <iconset resource="Recursos.qrc">
-     <normaloff>:/documento.png</normaloff>:/documento.png</iconset>
+    <iconset resource="Imagenes.qrc">
+     <normaloff>:/Recursos/documento.png</normaloff>:/Recursos/documento.png</iconset>
    </property>
    <property name="text">
     <string>A&amp;brir</string>
@@ -193,8 +193,8 @@
   </action>
   <action name="mnuGuardar">
    <property name="icon">
-    <iconset resource="Recursos.qrc">
-     <normaloff>:/salvar.png</normaloff>:/salvar.png</iconset>
+    <iconset resource="Imagenes.qrc">
+     <normaloff>:/Recursos/salvar.png</normaloff>:/Recursos/salvar.png</iconset>
    </property>
    <property name="text">
     <string>&amp;Guardar</string>
@@ -215,8 +215,8 @@
   </action>
   <action name="mnuCalcular">
    <property name="icon">
-    <iconset resource="Recursos.qrc">
-     <normaloff>:/calculadora.png</normaloff>:/calculadora.png</iconset>
+    <iconset resource="Imagenes.qrc">
+     <normaloff>:/Recursos/calculadora.png</normaloff>:/Recursos/calculadora.png</iconset>
    </property>
    <property name="text">
     <string>&amp;Calcular</string>
@@ -227,8 +227,8 @@
   </action>
   <action name="mnuSalir">
    <property name="icon">
-    <iconset resource="Recursos.qrc">
-     <normaloff>:/cerrar-sesion.png</normaloff>:/cerrar-sesion.png</iconset>
+    <iconset resource="Imagenes.qrc">
+     <normaloff>:/Recursos/cerrar-sesion.png</normaloff>:/Recursos/cerrar-sesion.png</iconset>
    </property>
    <property name="text">
     <string>&amp;Salir</string>
@@ -239,8 +239,8 @@
   </action>
   <action name="mnuAyuda">
    <property name="icon">
-    <iconset resource="Recursos.qrc">
-     <normaloff>:/ayuda.png</normaloff>:/ayuda.png</iconset>
+    <iconset resource="Imagenes.qrc">
+     <normaloff>:/Recursos/ayuda.png</normaloff>:/Recursos/ayuda.png</iconset>
    </property>
    <property name="text">
     <string>Acerca de</string>
@@ -248,8 +248,8 @@
   </action>
   <action name="mnuNuevo">
    <property name="icon">
-    <iconset resource="Recursos.qrc">
-     <normaloff>:/anadir.png</normaloff>:/anadir.png</iconset>
+    <iconset resource="Imagenes.qrc">
+     <normaloff>:/Recursos/anadir.png</normaloff>:/Recursos/anadir.png</iconset>
    </property>
    <property name="text">
     <string>Nuevo</string>
@@ -260,7 +260,7 @@
   </action>
  </widget>
  <resources>
-  <include location="Recursos.qrc"/>
+  <include location="Imagenes.qrc"/>
  </resources>
  <connections/>
 </ui>

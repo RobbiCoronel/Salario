@@ -6,7 +6,7 @@ Ayuda::Ayuda(QWidget *parent) :
     ui(new Ui::Ayuda)
 {
     ui->setupUi(this);
-    connect(ui->btnSalir, SIGNAL(triggered(bool)), this, SLOT(close()));
+    connect(ui->btnSalir, SIGNAL(clicked()), this, SLOT(close()));
 }
 
 Ayuda::~Ayuda()

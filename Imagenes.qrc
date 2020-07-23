@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Recursos/anadir.png</file>
+        <file>Recursos/ayuda.png</file>
+        <file>Recursos/calculadora.png</file>
+        <file>Recursos/cerrar-sesion.png</file>
+        <file>Recursos/dinero.png</file>
+        <file>Recursos/documento.png</file>
+        <file>Recursos/impresora.png</file>
+        <file>Recursos/salvar.png</file>
+    </qresource>
+</RCC>
